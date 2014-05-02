@@ -3,15 +3,17 @@
 
 	"name": "easyBitly",
 	"description": "Easily shortens the currently opened URL and copies it to your clipboard.",
-	"version": "1.1.5",
+	"version": "1.2",
 	"icons": {
+		"16": "small.png",
 		"128": "big.png"
 	},
 	"permissions": [
 		"*://*.bitly.com/*",
 		"tabs",
 		"clipboardWrite",
-		"storage"
+		"storage",
+		"contextMenus"
 	],
 	"background": {
 		"page":"shorten.html",
