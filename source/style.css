@@ -1,0 +1,83 @@
+/* @group Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-user-select: none;
+}
+/* @end */
+
+body {
+	cursor: default;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	color: #333333;
+}
+
+#wrap {
+	position: relative;
+	width: 600px;
+	height: auto;
+	margin: 50px auto;
+	line-height: 60px;
+}
+
+label {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	margin-right: 20px;
+}
+
+input {
+	border: 1px solid #dfdfdf;
+	background-color: #efefef;
+	padding: 10px;
+	width: 300px;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	line-height: 18px;
+	outline: none;
+	color: #666666;
+}
+
+input:focus {
+	background-color: #ffffff;
+	color: #333333;
+	-moz-box-shadow: 0 0 10px rgba(238, 97, 33, 0.5);
+	-webkit-box-shadow: 0 0 10px rgba(238, 97, 33, 0.5);
+	box-shadow: 0 0 10px rgba(238, 97, 33, 0.5);
+}
+
+#save {
+	position: relative;
+	display: block;
+	cursor: pointer;
+	background-color: #333333;
+	color: #ffffff;
+	border: none;
+	width: 150px;
+	margin: 20px auto;
+}
+#save:hover {
+	background-color: #454545;
+}
+#save:active {
+	background-color: #000000;
+}
+#foot {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: 10px;
+}
