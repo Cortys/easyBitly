@@ -1,5 +1,4 @@
-easyBitly
-=========
+![](source/banner.png)
 
 Minimalistic one-click Chrome extension for bitly.
 
