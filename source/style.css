@@ -18,7 +18,6 @@ html,body,div,span {
 body {
 	cursor: default;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	font-weight: lighter;
 	font-size: 14px;
 	color: #333333;
 }
@@ -44,11 +43,11 @@ input {
 	padding: 10px;
 	width: 300px;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	font-weight: lighter;
 	font-size: 14px;
 	line-height: 18px;
 	outline: none;
 	color: #666666;
+	border-radius: 2px;
 }
 
 input:focus {
@@ -76,6 +75,10 @@ input:focus {
 
 #save:active {
 	background-color: #000000;
+}
+
+#save.saving {
+	background-color: #666666;
 }
 
 #foot {

@@ -6,6 +6,8 @@ Minimalistic one-click Chrome extension for bitly.
 
 Drag and drop the .crx file to Chromes extension panel.
 
+On Windows you have to enable Developer Mode at the "Extensions" option pane and then load the `source` folder as an unpacked extension.
+
 ##How to use##
 
 1. Enter your bitly account information in the extensions options. Custom URLs are supported. Your login data stays (hopefully) safely on your computer as long as you do not check the sync option.

@@ -9,6 +9,8 @@ function refreshToken(correct, wrong) {
 				xhr.setRequestHeader("Authorization", "Basic "+(window.btoa(user+":"+pw)));
 			}
 		}).done(function(data) {
+			if(typeof data === "object" && data !== null)
+				data = data.data;
 			sSet({ token:data }, function() {
 				(data?correct:wrong)();
 			});
